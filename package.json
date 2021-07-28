@@ -1,0 +1,19 @@
+{
+  "name": "praktyki2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alyszys/praktyki2.git"
+  },
+  "author": "Alicja Wojtkowska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alyszys/praktyki2/issues"
+  },
+  "homepage": "https://github.com/alyszys/praktyki2#readme"
+}
