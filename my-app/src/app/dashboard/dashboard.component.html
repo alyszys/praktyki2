@@ -1,0 +1,7 @@
+<h2>styczeń - lipiec</h2>
+<div class="walls-menu">
+  <a *ngFor="let wall of walls"
+  routerLink="/detail/{{wall.id}}">
+    {{wall.name}}:&nbsp; {{wall.paint}}m&#178;
+  </a>
+</div>
