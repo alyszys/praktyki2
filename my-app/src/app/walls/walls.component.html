@@ -1,0 +1,26 @@
+<h2>Months</h2>
+<ul class="walls">
+  <li *ngFor="let wall of walls">
+    <a routerLink="/detail/{{wall.id}}">
+    <span class="badge">{{wall.id}}</span>{{wall.name}}: {{wall.paint}}m&#178;
+    </a>
+  </li>
+</ul>
+
+<!-- <div *ngIf="selectedWall">
+    <h2>{{selectedWall.name | uppercase}} Details</h2>
+    <div><span>miesiąc: </span>{{selectedWall.name}}</div>
+    <div>
+    <label for="wall-paint">pomalowane m&#178;: </label>
+    <input id="wall-paint" [(ngModel)]="selectedWall.paint" placeholder="paint">
+    </div>
+</div>
+
+<h2>{{wall.name | uppercase}} Details</h2>
+<div><span>name: &nbsp;</span>{{wall.name}}</div>
+<div><span>pomalowane ściany: &nbsp;</span>{{wall.paint}}m&#178;</div>
+
+<div>
+    <label for="paint">pomalowane m&#178;: </label>
+    <input id="paint" [(ngModel)]="wall.paint" placeholder="paint">
+</div> -->

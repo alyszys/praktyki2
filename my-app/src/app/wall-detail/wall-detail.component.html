@@ -1,0 +1,10 @@
+<div *ngIf="wall">
+
+    <h2>{{wall.name | uppercase}} szczegóły</h2>
+    <div><span>miesiąc: </span>{{wall.name | uppercase}}</div>
+    <div>
+      <label for="wall-paint">pomalowane ściany w m&#178;: </label>
+      <input id="wall-paint" [(ngModel)]="wall.paint" placeholder="wall.paint">
+    </div>
+    <button (click)="goBack()">powrót</button>
+  </div>
